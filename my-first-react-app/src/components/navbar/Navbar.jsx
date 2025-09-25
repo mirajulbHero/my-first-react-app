@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
         <div className='container'>
             <nav className='nav-area'>
-                <h1>CS — Ticket System</h1>
+                <h2>CS — Ticket System</h2>
                 <div className="menu-container">
                     <ul>
                         <li><a href="">Home</a></li>

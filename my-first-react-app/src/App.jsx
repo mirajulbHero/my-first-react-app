@@ -1,5 +1,6 @@
 
 import './App.css'
+import Heroarea from './components/heroarea/Heroarea'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <div>
         <Navbar></Navbar>
+        <Heroarea></Heroarea>
       </div>
     </>
   )

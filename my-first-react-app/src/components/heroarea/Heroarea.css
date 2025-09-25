@@ -1,0 +1,36 @@
+
+.bg-color{
+    background-color:#F5F5F5 ;
+}
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+.progress-area {
+    background: linear-gradient(to right,#632EE3, #9F62F2);
+    padding: 60px 230px;
+    color: #fff;
+    border-radius: 5px;
+}
+.resolved-area {
+    background: linear-gradient(to right,#54CF68, #00827A);
+    padding: 60px 230px;
+    color: #fff;
+    border-radius: 5px;
+}
+.progress-area p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.progress-area p {
+    font-size: 24px;
+    font-weight: 400;
+}
+.resolved-area p{
+    font-size: 24px;
+    font-weight: 400; 
+}
+
