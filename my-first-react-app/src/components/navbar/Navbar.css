@@ -1,0 +1,43 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-area h1{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+.menu-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-container ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.menu-container ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(#632EE3, #9F62F2);
+    border: 0;
+    padding: 5px 10px;
+}

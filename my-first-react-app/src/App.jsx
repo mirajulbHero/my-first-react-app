@@ -1,12 +1,13 @@
 
 import './App.css'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
 
   return (
     <>
       <div>
-        <h2>mirajul islam</h2>
+        <Navbar></Navbar>
       </div>
     </>
   )
