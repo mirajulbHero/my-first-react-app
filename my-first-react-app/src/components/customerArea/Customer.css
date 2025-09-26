@@ -1,0 +1,83 @@
+
+.customer-area {
+    display: flex;
+    justify-content: space-between;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.customer-tickets h3,
+.task-area h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.task-area h3 {
+    margin-right: 50px;
+}
+.customer-card {
+    max-width: 420px;
+    padding:15px;
+    background-color: #fff;
+}
+.title-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.title-btn h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001931;
+}
+.title-btn img {
+    width: 15px;
+    margin-right: 5px;
+}
+/* .title-btn  span  {
+    width: 200px;
+} */
+.title-btn button {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-bottom-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-discrip {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+}
+.id-priority,
+.name-date {
+    display: flex;
+}
+.id-no {
+    margin-right: 10px;
+    color: #627382;
+    font-size: 14px;
+}
+.priority {
+    color: #F83044;
+    font-size: 14px;
+    font-weight: 500;
+}
+.name {
+    color: #627382;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 500;
+}    
+.clender {
+    color: #627382;
+    font-size: 14px;
+}

@@ -15,11 +15,23 @@
     color: #fff;
     border-radius: 5px;
 }
+.progress-area img {
+    width: 100px;
+    height: 150px;
+}
 .resolved-area {
     background: linear-gradient(to right,#54CF68, #00827A);
     padding: 60px 230px;
     color: #fff;
     border-radius: 5px;
+}
+.progress-content,
+.resolved-content {
+    text-align: center;
+}
+.progress-content h2,
+.resolved-content h2 {
+    font-size: 50px;
 }
 .progress-area p {
     font-size: 20px;

@@ -6,13 +6,17 @@ export default function Heroarea() {
         <div className='bg-color'>
             <div className="hero-area container">
                 <div className="progress-area">
-                    <img src="../assets" alt="" />
-                    <p>In-Progress</p>
-                    <h2>0</h2>
+                    <div className='progress-content'>
+                        <p>In-Progress</p>
+                        <h2>0</h2>
+                    </div>
                 </div>
                 <div className="resolved-area">
-                    <p>Resolved</p>
-                    <h2>0</h2>
+                    <div className='resolved-content'>
+                        <p>Resolved</p>
+                        <h2>0</h2>
+                    </div>
+                    
                 </div>
             </div>
         </div>
