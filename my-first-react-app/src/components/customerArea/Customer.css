@@ -8,6 +8,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
+.customer-tickets {
+    margin-right: 40px;
+}
 .customer-tickets h3,
 .task-area h3 {
     font-size: 20px;
@@ -81,3 +84,36 @@
     color: #627382;
     font-size: 14px;
 }
+
+/* .task-content {
+    margin-left: 5px;
+} */
+
+.task-content {
+    background-color: #fff;
+    padding: 7px;
+}
+.task-content h3 {
+    color: #001931;
+    font-weight: 500;
+    font-size: 16px;
+}
+.complete-btn {
+    display: block;
+    width: 100%;
+    background-color: #02A53B;
+    color: #fff;
+    border: 0;
+    padding: 7px 15px;
+    border-radius: 7px;
+}
+
+.resolve-area {
+    margin-top: 70px;
+}
+.resolve-area  h3 {
+    font-size: 20px;
+    color: #34485A;
+    font-weight: 500;
+}
+

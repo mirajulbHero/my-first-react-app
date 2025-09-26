@@ -42,7 +42,18 @@ export default function Customer({customerPromise}) {
                 
             </div>
             <div className="task-area">
-                <h3>Task Status</h3>
+                <div className="task-area">
+                    <h3>Task Status</h3>
+                    <div className="task-content">
+                        <h3>App Crash on Launch</h3>
+                        <button className="complete-btn">Complete</button>
+                    </div>
+                </div>
+                <div className="resolve-area">
+                    <h3>Resolved Task</h3>
+                </div>
+                
+                
             </div>
         </div>
     </div>
