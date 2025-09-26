@@ -34,22 +34,25 @@ export default function Footer() {
                 </div>
                 <div className="social-icon">
                     <h4>Social Links</h4>
-                    <div className="cross-area">
-                        <img src={crossImg} alt="" />
-                        <p>@CS — Ticket System</p>
+                    <div className="social-content">
+                        <div className="cross-area">
+                            <img src={crossImg} alt="" />
+                            <p>@CS — Ticket System</p>
+                        </div>
+                        <div className="linkedin-area">
+                            <img src={linkedinImg} alt="" />
+                            <p>@CS — Ticket System</p>
+                        </div>
+                        <div className="facebook-area">
+                            <img src={facebookImg} alt="" />
+                            <p>@CS — Ticket System</p>
+                        </div>
+                        <div className="meassage-area">
+                            <img src={meassageImg} alt="" />
+                            <p>support@cst.com</p>
+                        </div>
                     </div>
-                    <div className="linkedin-area">
-                        <img src={linkedinImg} alt="" />
-                        <p>@CS — Ticket System</p>
-                    </div>
-                    <div className="facebook-area">
-                        <img src={facebookImg} alt="" />
-                        <p>@CS — Ticket System</p>
-                    </div>
-                    <div className="meassage-area">
-                        <img src={meassageImg} alt="" />
-                        <p>support@cst.com</p>
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -119,3 +119,33 @@
     font-weight: 500;
 }
 
+/* customer area media query */
+@media (max-width: 575px) {
+    /* .container {
+        max-width: 576px;
+        margin: 0 auto;
+    } */
+    .customer-area {
+        display: block;
+        width: 100%;
+        
+    }
+    .card-grid {
+        display: block;
+        width: 100%;
+        /* grid-template-columns: 1fr;
+        gap: 30px; */
+    }
+    .customer-tickets h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .customer-card {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .all-task-content {
+        text-align: center;
+    }
+}
+

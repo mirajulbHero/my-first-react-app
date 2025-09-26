@@ -46,3 +46,25 @@
     font-weight: 400; 
 }
 
+
+/* hera area media query */
+@media (max-width: 576px){
+    .container {
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+    .hero-area{
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .progress-area  {
+        margin-bottom: 30px;
+        padding: 60px 0px;
+    }
+    .resolved-area{
+        padding: 60px 0px;
+        margin-bottom: 30px;
+    }
+}
+

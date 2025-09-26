@@ -41,7 +41,7 @@ export default function Customer({customerPromise}) {
                  </div>
                 
             </div>
-            <div className="task-area">
+            <div className="all-task-content">
                 <div className="task-area">
                     <h3>Task Status</h3>
                     <div className="task-content">

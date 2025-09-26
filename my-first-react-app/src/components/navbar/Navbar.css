@@ -47,3 +47,38 @@
     padding: 7px 10px;
     border-radius: 4px;
 }
+
+/* navbar media query */
+@media (max-width: 576px){
+    .container {
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+    .nav-area{
+        display: block;
+        text-align: center;
+    }
+    .nav-area h2 {
+        margin: 10px 0;
+        font-size: 40px;
+    }
+    .menu-container ul {
+        display: block;
+    }
+    .menu-container ul li {
+        display: block;
+        margin-bottom: 15px;
+
+    }
+    .menu-container ul li a{
+        font-size: 35px;
+    }
+    .nav-btn  {
+        display: block;
+        width: 100%;
+        font-size: 30px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+}
