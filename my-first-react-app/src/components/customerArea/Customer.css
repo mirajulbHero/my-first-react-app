@@ -1,16 +1,18 @@
 
+
 .customer-area {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 70px;
 }
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
-.customer-tickets {
-    margin-right: 40px;
-}
+/* .customer-tickets {
+    margin-right: 30px;
+} */
 .customer-tickets h3,
 .task-area h3 {
     font-size: 20px;
@@ -42,7 +44,7 @@
     width: 200px;
 } */
 .title-btn button {
-    padding: 5px 10px;
+    padding: 5px 10px; 
     border: 0;
     border-radius: 15px;
     font-size: 16px;

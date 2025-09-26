@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.bg-black {
+    background-color: #000;
+    color: #fff;
+}
+.footer-area {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.ticket-system  {
+    width: 80%;
+}
+.ticket-system h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+   padding-top: 15px;
+}
+.ticket-system  p {
+    color: #A1A1AA;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.company h4,
+.service h4,
+.information h4,
+.social-icon h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+.company p,
+.service p,
+.information p,
+.social-icon  p {
+    color: #A1A1AA;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.social-icon h4  {
+    margin-top: 10px;
+}
+
+.cross-area,
+.linkedin-area,
+.facebook-area,
+.meassage-area {
+    display: flex;
+}
+.cross-area img ,
+.linkedin-area img,
+.facebook-area img,
+.meassage-area img {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+.copy-wright-area p{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}
