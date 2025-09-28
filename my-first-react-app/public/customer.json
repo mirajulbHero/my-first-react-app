@@ -24,7 +24,7 @@
     "description": "Customer cannot download their January invoice from the billing section. The download button is...",
     "customer": "Michael Brown",
     "priority": "MEDIUM PRIORITY",
-    "status": "In- Progress",
+    "status": "In-Progress",
     "create": "14-9-2025"
   },
   {
@@ -51,7 +51,7 @@
     "description": "Customer requested a refund two weeks ago but has not received the amount yet..",
     "customer": "Sophia Taylor",
     "priority": "MEDIUM PRIORITY",
-    "status": "In- Progress",
+    "status": "In-Progress",
     "create": "19-9-2025"
   },
   {
@@ -78,7 +78,7 @@
     "description": "Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
     "customer": "Liam Thomas",
     "priority": "MEDIUM PRIORITY",
-    "status": "In- Progress",
+    "status": "In-Progress",
     "create": "26-9-2025"
   },
   {
@@ -96,7 +96,7 @@
     "description": "Provide English, Spanish, and French localization options.",
     "customer": "GlobalSoft",
     "priority": "MEDIUM PRIORITY",
-    "status": "In- Progress",
+    "status": "In-Progress",
     "create": "22-9-2025"
   },
   {
@@ -105,7 +105,7 @@
     "description": "Create an admin dashboard to track user metrics and KPIs.",
     "customer": "Insightly",
     "priority": "LOW PRIORITY",
-    "status": "In- Progress",
+    "status": "In-Progress",
     "create": "26-9-2025"
   }
 ]
