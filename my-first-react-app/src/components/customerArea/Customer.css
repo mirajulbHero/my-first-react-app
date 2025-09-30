@@ -90,15 +90,21 @@
 /* .task-content {
     margin-left: 5px;
 } */
-
-.task-content {
+.all-task-content {
+    margin-left: 15px;
+}
+.task-content,
+.resolve-content {
     background-color: #fff;
     padding: 7px;
+    margin-bottom: 20px;
 }
 .task-content h3 {
     color: #001931;
     font-weight: 500;
     font-size: 16px;
+    margin-left: 20px;
+    
 }
 .complete-btn {
     display: block;
@@ -111,12 +117,18 @@
 }
 
 .resolve-area {
-    margin-top: 70px;
+    margin-top: 200px;
+    margin-top: 20px;
 }
 .resolve-area  h3 {
-    font-size: 20px;
-    color: #34485A;
+    font-size: 16px;
+    color: #001931;
     font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.resolve-content {
+    margin-top: 20px;
 }
 .blue{
     background-color: blueviolet;
@@ -150,7 +162,7 @@
     }
     .customer-tickets h3 {
         text-align: center;
-        margin-top: 30px;
+        margin-top:30px;
     }
     .customer-card {
         margin-bottom: 30px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import'./Heroarea.css'
 
-export default function Heroarea( {inProgress}) {
+export default function Heroarea( {inProgress, resolvedCount}) {
   return (
     <div>
         <div className='bg-color'>
@@ -15,7 +15,7 @@ export default function Heroarea( {inProgress}) {
                 <div className="resolved-area">
                     <div className='resolved-content'>
                         <p>Resolved</p>
-                        <h2>0</h2>
+                        <h2>{resolvedCount}</h2>
                     </div>
                     
                 </div>
