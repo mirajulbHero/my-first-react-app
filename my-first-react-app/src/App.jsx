@@ -15,7 +15,7 @@ const fetchCustomer = async() => {
 
 function App() {
   const [inProgress, setInProgress] = useState(0);
-  
+
   const [resolvedCount, setResolvedCount] = useState(0)
 
    const customerPromise = fetchCustomer()
@@ -25,7 +25,7 @@ function App() {
     <>
       <div>
         <Navbar></Navbar>
-        <Heroarea inProgress ={inProgress} setInProgress ={setInProgress} resolvedCount={resolvedCount} resolvedCount={resolvedCount}></Heroarea>
+        <Heroarea inProgress ={inProgress} setInProgress ={setInProgress} resolvedCount={resolvedCount}></Heroarea>
         <Suspense fallback ={<div>lodding....</div>}>
           <Customer setResolvedCount = {setResolvedCount} setInProgress={setInProgress} customerPromise ={customerPromise}></Customer>
         </Suspense>
